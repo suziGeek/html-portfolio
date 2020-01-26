@@ -1536,6 +1536,12 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+
+		}
+		.image .fit2{
+			display: block;
+			/* width: 100vw; */
+			object-fit: cover;
 		}
 
 		.image.left {
@@ -2677,6 +2683,10 @@ input, select, textarea {
 				opacity: 0.5;
 			}
 
+	}
+
+	.demolinks {
+		padding: 10px;
 	}
 
 	
