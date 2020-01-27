@@ -316,6 +316,11 @@ input, select, textarea {
 			width: 33.33333%;
 		}
 
+		.row > .col-4b {
+			width: 30%;
+		}
+
+
 		.row > .off-4 {
 			margin-left: 33.33333%;
 		}
@@ -2687,6 +2692,42 @@ input, select, textarea {
 
 	.demolinks {
 		padding: 10px;
+	}
+
+	.color{
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		position: relative;
+		background-color: white;
+		width: 20%;
+		height:50vh;
+		margin:0 1em 0 1em;
+		padding-top: 0;
+		z-index:1000;
+		
+	
+		/* background-image: url(/images/thumbs/01.jpg); */
+		
+	}
+
+	.color p {
+		line-height: 0.1;
+		/* list-style: none; */
+		text-align: center;
+	}
+.color hr {
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+	margin: unset;
+	margin-bottom: 25px;
+}
+
+	.a-skill {
+		padding:20px;
+	color: mediumturquoise;
 	}
 
 	
